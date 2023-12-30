@@ -35,4 +35,6 @@ rails db:migrate
 rails generate model Comment commenter:string body:text article:references
 
 rails db:migrate
+
+rails generate controller Comments
 ```
