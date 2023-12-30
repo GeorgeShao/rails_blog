@@ -22,3 +22,13 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+## Commands Used
+
+```
+rails generate controller Articles index --skip-routes
+
+rails generate model Article title:string body:text
+
+rails db:migrate
+```
